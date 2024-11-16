@@ -21,7 +21,7 @@ class waterdrop {
     stroke(0);
     strokeWeight(1);
     fill(255, 255, 255, 35);
-    circle(this.position.x, this.position.y, this.mass * 16);
+    ellipse(this.position.x, this.position.y, this.mass * 9, this.mass * 12);
   }
 
   checkEdges() {
