@@ -1,7 +1,3 @@
-// The Nature of Code
-// Daniel Shiffman
-// http://natureofcode.com
-
 class Mover {
   constructor(x, y, m) {
     this.mass = m;
