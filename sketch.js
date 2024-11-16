@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(0, 40);
 
   let gravity = createVector(0, 0.1);
   waterdrop.applyForce(gravity);
