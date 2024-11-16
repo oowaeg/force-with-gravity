@@ -9,12 +9,14 @@ function setup() {
 function draw() {
   background(0, 40);
 
-  let gravity = createVector(0, 0.1);
-  waterdrop.applyForce(gravity);
+  // let gravity = createVector(0, 0.1);
+  // waterdrop.applyForce(gravity);
 
   if (mouseIsPressed) {
-    let wind = createVector(0.1, 0);
-    waterdrop.applyForce(wind);
+      gravity = createVector(0, 0.005);
+    } else {
+      gravity = createVector(0, 0.1);
+    }
   }
 
   waterdrop.update();
