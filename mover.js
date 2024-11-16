@@ -1,4 +1,4 @@
-class Mover {
+class waterdrop {
   constructor(x, y, m) {
     this.mass = m;
     this.position = createVector(x, y);
@@ -19,8 +19,8 @@ class Mover {
 
   show() {
     stroke(0);
-    strokeWeight(2);
-    fill(127, 127);
+    strokeWeight(1);
+    fill(255, 255, 255, 30);
     circle(this.position.x, this.position.y, this.mass * 16);
   }
 
