@@ -1,14 +1,13 @@
 
-
 let moverA;
 
 function setup() {
   createCanvas(640, 240);
-  moverA = new Mover(200, 30, 10);
+  moverA = new Mover(320, 0, 5);
 }
 
 function draw() {
-  background(255);
+  background(0);
 
   let gravity = createVector(0, 0.1);
   moverA.applyForce(gravity);
