@@ -12,7 +12,7 @@ function draw() {
   if (mouseIsPressed) {
       gravity = createVector(0, 0.005);
     } else {
-      gravity = createVector(0, 0.1);
+      gravity = createVector(0, 0.03);
     }
 
   waterdrop.applyForce(gravity);
